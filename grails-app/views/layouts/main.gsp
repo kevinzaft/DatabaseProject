@@ -26,7 +26,7 @@
                 <a class="navbar-brand" href="/#">
                     <i class="fa grails-icon">
                         <asset:image src="grails-cupsonly-logo-white.svg"/>
-                    </i> Grails
+                    </i> Resturant Critic
                 </a>
             </div>
             <div class="navbar-collapse collapse" aria-expanded="false" style="height: 0.8px;">
@@ -48,4 +48,7 @@
     <asset:javascript src="application.js"/>
 
 </body>
+<footer>
+    <div>This is the bottom of the page</div>
+</footer>
 </html>
