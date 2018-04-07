@@ -102,7 +102,7 @@ dataSource:
 environments:
     development:
         dataSource:
-            dbCreate: create-drop
+            dbCreate: update
             pooled: true
             username: "DatabaseProject"
             password: "DatabaseProject"
