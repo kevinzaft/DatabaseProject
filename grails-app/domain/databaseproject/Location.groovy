@@ -9,11 +9,11 @@ class Location {
     String managerName
     String phoneNumber
     String streetAddress
-    Time openHour
-    Time closeHour
+    String openHour
+    String closeHour
     Integer resturantID
 
     static constraints = {
-        closeHour==openHour
+        //closeHour==openHour
     }
 }
