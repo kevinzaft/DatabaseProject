@@ -1,0 +1,2 @@
+INSERT INTO rating VALUES(00001, '1994-07-19', 4, 3, 4, 5, 'People are genuinly interested in your day and enjoying your dinnig experience with you.', 00003);
+INSERT INTO rating VALUES(00002, '2013-05-24', 3, 3, 1, 2, 'We love this place. Hoot and a holler!', 00004);
