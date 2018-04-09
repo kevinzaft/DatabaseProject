@@ -20,7 +20,7 @@ select restaurant.name, first_open_date from restaurant join location on restaur
 
 select restaurant.name as restaurant_name, rater.name as rater_name from rating join rater on user_id=rater_id join restaurant on rating.restaurant_id=restaurant.restaurant_id where food in (select max(food) as food from rating where restaurant_id in (select restaurant_id from restaurant where type='Burger'));
 
-//
+(select rating, case when ((select rating from rating_item where item_id in (select item_id from menu_item where restaurant_id in (select restaurant_id from restaurant where type='Type Y')))<(select avg(rating) as rating from rating_item where item_id in (select item_id from menu_item where restaurant_id in (select restaurant_id from restaurant where not type='Type Y')))) then true else false end from rating_item);
 
 
 
