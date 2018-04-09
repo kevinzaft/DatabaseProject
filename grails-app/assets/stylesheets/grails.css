@@ -44,8 +44,9 @@ pre {
 
 }
 .navbar-default, .navbar-static-top {
-    background-color: #4D8618;
+    background-color: #3433ee;
     border: 0px;
+    border-radius: 10px;
 }
 a.navbar-brand {
     color: white !important;
@@ -541,7 +542,8 @@ h8 {
 }
 
 #content {
-    background: white
+    background: white;
+    border-radius: 10px;
 }
 
 #content .row:before, #content .row:after {
@@ -1056,4 +1058,23 @@ html, body, .st-container, .st-pusher, .st-content {
     .presentations .img.screenshot, .video .metadata {
         float: none;
     }
+}
+
+.divHolder{
+    border-radius: 10px;
+    padding: 5px;
+    border: 5px;
+    border-color: #3433ee;
+}
+
+
+.carouselS{
+    max-height: 250px;
+    max-width: 250px;
+    margin: auto;
+}
+
+.body_div{
+    margin: auto;
+    padding: 5px;
 }

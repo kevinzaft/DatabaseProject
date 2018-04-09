@@ -6,7 +6,7 @@
     <title>
         <g:layoutTitle default="Grails"/>
     </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    %{--<meta name="viewport" content="width=device-width, initial-scale=1"/>--}%
 
     <asset:stylesheet src="application.css"/>
 
@@ -14,41 +14,41 @@
 </head>
 <body>
 
-    <div class="navbar navbar-default navbar-static-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="/#">
-                    <i class="fa grails-icon">
-                        <asset:image src="grails-cupsonly-logo-white.svg"/>
-                    </i> Resturant Critic
-                </a>
-            </div>
-            <div class="navbar-collapse collapse" aria-expanded="false" style="height: 0.8px;">
-                <ul class="nav navbar-nav navbar-right">
-                    <g:pageProperty name="page.nav" />
-                </ul>
+    <div class="body_div">
+
+        <div class="navbar navbar-default navbar-static-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/#">
+                        <i class="fa grails-icon">
+                            <asset:image src="foodcritic.png"/>
+                        </i> Food Critic
+                    </a>
+                </div>
             </div>
         </div>
+
+
+        <div class="divHolder">
+            <g:layoutBody/>
+        </div>
+
+        <div class="footer" role="contentinfo"></div>
+
+        <div id="spinner" class="spinner" style="display:none;">
+            <g:message code="spinner.alt" default="Loading&hellip;"/>
+        </div>
+
+        <asset:javascript src="application.js"/>
+
     </div>
-
-    <g:layoutBody/>
-
-    <div class="footer" role="contentinfo"></div>
-
-    <div id="spinner" class="spinner" style="display:none;">
-        <g:message code="spinner.alt" default="Loading&hellip;"/>
-    </div>
-
-    <asset:javascript src="application.js"/>
 
 </body>
-<footer>
-    <div>This is the bottom of the page</div>
-</footer>
+
 </html>

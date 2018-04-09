@@ -45,35 +45,73 @@
         </li>
     </content>
 
-    <div class="svg" role="presentation">
-        <div class="grails-logo-container">
-            <asset:image src="grails-cupsonly-logo-white.svg" class="grails-logo"/>
+
+    <div class="carouselS">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <asset:image src="carousel_food/Cake.jpg" class="grails-logo"/>
+                </div>
+
+                <div class="item">
+                    <asset:image src="carousel_food/Chicken.jpg" class="grails-logo"/>
+                </div>
+
+                <div class="item">
+                    <asset:image src="carousel_food/Pasta.jpg" class="grails-logo"/>
+                </div>
+
+                <div class="item">
+                    <asset:image src="carousel_food/Kebab.jpg" class="grails-logo"/>
+                </div>
+
+                <div class="item">
+                    <asset:image src="carousel_food/Rice.jpg" class="grails-logo"/>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </div>
 
-    <div id="content" role="main">
-        <section class="row colset-2-its">
-            <h1>Welcome to Grails</h1>
+    <div class="card">
+        <div id="content" role="main">
+            <section class="row colset-2-its">
+                <h1>Welcome to Food Critic</h1>
+                <p>
+                    Food Critic is dedicated to bringing you honest restaurant reviews from a wide selection of people. This website includes
+                    ratings and thoughts from many local and not local restaurants. The raters are people who are all intermittent and
+                    frequent restaurant goers and their experience and knowledge is shared here with you.
+                    Enjoy and Bon Apetit.
+                </p>
+                <div class="containercard">
+                    <button ><g:link controller="Location">Locations</g:link> </button>
+                    <button ><g:link controller="MenuItem">Menu Items</g:link> </button>
+                    <button ><g:link controller="Rater">Raters</g:link> </button>
+                    <button ><g:link controller="Rating">Ratings</g:link></button>
+                    <button ><g:link controller="RatingItem">Rating Items</g:link> </button>
+                    <button ><g:link controller="Restaurant">Restaurants</g:link> </button>
+                </div>
 
-            <p>
-                Congratulations, you have successfully started your first Grails application! At the moment
-                this is the default page, feel free to modify it to either redirect to a controller or display
-                whatever content you may choose. Below is a list of controllers that are currently deployed in
-                this application, click on each to execute its default action:
-            </p>
-
-            <div id="controllers" role="navigation">
-                <h2>Available Controllers:</h2>
-                <ul>
-                    <g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
-                        <li class="controller">
-                            <g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link>
-                        </li>
-                    </g:each>
-                </ul>
-            </div>
-        </section>
-    </div>
+            </section>
+        </div>
+    <div>
 
 </body>
 </html>
