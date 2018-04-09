@@ -1,18 +1,18 @@
 package databaseproject
 
 class MenuItem {
-    Integer itemID
+    Integer item_id
     String name
     String type
     String category
     String description
-    Integer price
-    Integer calories
-    Integer resturantID
+    Float price
+    Float calories
+    Integer restaurant_id
     static constraints = {
     }
     static mapping = {
         table "menu_item"
-        id generator:'assigned', name:'itemID'
+        id generator:'assigned', name:'item_id'
     }
 }

@@ -1,2 +1,12 @@
-INSERT INTO rating VALUES(00001, '1994-07-19', 4, 3, 4, 5, 'People are genuinly interested in your day and enjoying your dinnig experience with you.', 00003);
-INSERT INTO rating VALUES(00002, '2013-05-24', 3, 3, 1, 2, 'We love this place. Hoot and a holler!', 00004);
+INSERT INTO rating VALUES( 4, 3, 4, 5, 'People are genuinly interested in your day and enjoying your dinnig experience with you.', 00003, 0, 0,00001, '1994-07-19');
+INSERT INTO rating VALUES( 3, 3, 3, 3, 'Nothing special but definitly not bad', 00004,0,1,00002, '2013-05-24');
+INSERT INTO rating VALUES( 5, 2, 4, 5, 'We love this place. Hoot and a holler!', 00003,0,2, 00003, '1996-02-24');
+INSERT INTO rating VALUES( 1, 1, 1, 1, 'detestable, avoid', 00002, 0,3, 00004, '2001-06-17');
+INSERT INTO rating VALUES( 1, 3, 4, 5, 'food is not great but staff are', 00004, 0,4 ,00005, '2012-02-12');
+INSERT INTO rating VALUES( 5, 5, 5, 5, 'great place. will strongly recomend', 00005,0,5,00006, '2012-08-09');
+INSERT INTO rating VALUES( 5, 4, 5, 4, 'great food and service!', 00012,0,6,00007, '1996-07-26');
+INSERT INTO rating VALUES( 1, 3, 1, 2, 'overall not that great', 00002,0,7,00008, '2012-08-09');
+INSERT INTO rating VALUES( 2, 3, 1, 2, '', 00009,0,8,00009, '2018-02-24');
+INSERT INTO rating VALUES( 3, 3, 1, 2, 'We love this place. come here all the time for dates', 00006,0,9,00010, '2017-07-08');
+INSERT INTO rating VALUES( 3, 5, 5, 2, 'good time and good food', 00009,0,10,00011, '2005-05-17');
+INSERT INTO rating VALUES( 4, 4, 4, 4, 'wonderful', 00010,0,11,00012, '1998-05-29');

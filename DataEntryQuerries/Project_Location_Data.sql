@@ -1,4 +1,12 @@
-INSERT INTO location VALUES (0001, '2003-04-09', 'Timothy Andrews', '613-234-4523', '123 6th St. Melbourne, FL 32904', 4, 4, 0004);
-INSERT INTO location VALUES (0002, '1954-12-11', 'Sam Smith', '219-432-6324', '60, rue Bégin, Gatineau, Québec', 12, 8, 0005);
-INSERT INTO location VALUES (0003, '1850-02-27', 'Samantha McReynolds', '847-562-0834', '153 Bank St Ottawa, ON', 10, 9, 0001);
-INSERT INTO location VALUES (0004, '1962-10-23', 'Martha Stewart', '851-274-3263', '231 Elgin St Ottawa, ON', 2, 8, 0003);
+INSERT INTO location VALUES (0001, '2003-04-09', 'Timothy Andrews', '613-234-4523', '123 6th St. Melbourne, FL 32904', '8:00', '20:00', 0004,0);
+INSERT INTO location VALUES (0002, '1954-12-11', 'Sam Smith', '219-432-6324', '60, rue Bégin, Gatineau, Québec', '12:00', '18:00', 0005,0);
+INSERT INTO location VALUES (0003, '1850-02-27', 'Samantha McReynolds', '847-562-0834', '153 Bank St Ottawa, ON', '10:00', '21:00', 0001,0);
+INSERT INTO location VALUES (0004, '1962-10-23', 'Martha Stewart', '851-274-3263', '231 Elgin St Ottawa, ON', '2:00', '20:00', 0003, 0);
+INSERT INTO location VALUES (0005, '1990-11-15', 'Timothy Andrews', '613-234-4523', '123 6th St. Melbourne, FL 32904', '4:00', '16:00', 0007,0);
+INSERT INTO location VALUES (0013, '1992-05-24', 'Bethany L. Godfrey', '530-867-8913', '552 Byers Lane Sacramento, CA 95814', '6:00', '18:00', 0008,0);
+INSERT INTO location VALUES (0014, '1997-10-19', 'Paul S. Nesbitt', '403-543-4611', '1831 11th Ave Calgary, AB T2P 1M6', '7:00', '19:00', 0006,0);
+INSERT INTO location VALUES (0008, '2000-02-24', 'Katharine W. Aldridge', '905-839-4676', '4718 Toy Avenue South Pickering, ON L1V 1S8', '8:00', '20:00', 0012,0);
+INSERT INTO location VALUES (0009, '2000-04-01', 'Martina D. Salmons', '613-968-0767', '1287 Wallbridge Loyalist Rd Belleville, ON K8N 1L9', '8:00', '17:00', 0010,0);
+INSERT INTO location VALUES (0010, '2003-07-17', 'John R. King', '867-952-7504', '1343 49th Avenue  Fort Mcpherson, NT X0E 0J0', '4:00', '16:00', 0009,0);
+INSERT INTO location VALUES (0011, '2008-09-21', 'Gerald S. Cole', '905-632-9758', '3982 Maria St Burlington, ON L7R 2G6', '8:00', '20:00', 0011,0);
+INSERT INTO location VALUES (0012, '2017-05-28', 'Sue D. Sommerville', '604-308-4591', '3048 James Street Aldergrove, BC V5G 4S4', '0:00', '0:00', 0008,0);

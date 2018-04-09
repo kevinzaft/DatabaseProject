@@ -1,5 +1,11 @@
-INSERT INTO rater VALUES (0001, 'sasam079@uottawa.ca', 'Stephen Asamoah', '2017-04-12', 'food-critic', 5);
-INSERT INTO rater VALUES (0002, 'khuan055@uottawa.ca', 'Kevin Huangfu', '2017-04-12', 'food-critic', 3);
-INSERT INTO rater VALUES (0003, 'drrandom@whoknows.com', 'Dr. Random Strange', '2013-12-21', 'blog', 1);
-INSERT INTO rater VALUES (0004, 'rern132@gmail.com', 'Rana Sanadan', '1945-06-28', 'online', 4);
-INSERT INTO rater VALUES (0005, 'alehandrosalamon@gmail.com', 'Alejandro Salamon', '1823-09-16', 'food-critic', 35;
+INSERT INTO rater VALUES (0001, 'sasam079@uottawa.ca', 'Stephen Asamoah', '2017-04-12', 'food-critic', 0, 5);
+INSERT INTO rater VALUES (0002, 'khuan055@uottawa.ca', 'Kevin Huangfu', '2017-04-12', 'food-critic', 0, 3);
+INSERT INTO rater VALUES (0003, 'drrandom@whoknows.com', 'Dr. Random Strange', '2013-12-21', 'blog', 0, 1);
+INSERT INTO rater VALUES (0005, 'rern132@gmail.com', 'Rana Sanadan', '1945-06-28', 'online', 0, 4);
+INSERT INTO rater VALUES (0006, 'alehandrosalamon@gmail.com', 'Alejandro Salamon', '1823-09-16', 'food-critic', 0, 5);
+INSERT INTO rater VALUES (0007, 'nelking@gmail.com', 'Nelson King', '1963-12-26', 'blog', 0, 3);
+INSERT INTO rater VALUES (0008, 'andreamercedes@gmail.com', 'Andrea Mercedes', '2001-07-21', 'online', 0, 1);
+INSERT INTO rater VALUES (0009, 'feruciolamborghini@gmail.com', 'Ferucio Lamborghini', '2010-12-20', 'food-critic', 0, 5);
+INSERT INTO rater VALUES (0010, 'enzoferrari@gmail.com', 'Enzo Ferrari', '1990-04-19', 'food-critic', 0, 1);
+INSERT INTO rater VALUES (0011, 'johnli@gmail.com', 'John Li', '1980-02-05', 'food-critic', 0, 2);
+INSERT INTO rater VALUES (0012, 'jeswhite@gmail.com', 'Jessica White', '1997-10-20', 'online', 0, 4);

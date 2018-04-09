@@ -1,15 +1,16 @@
 package databaseproject
 
 class RatingItem {
-    Integer userID
+    Integer user_id
     Date date
-    Integer itemID
+    Integer item_id
     Integer rating
     String comment
     static constraints = {
     }
     static mapping = {
         table "rating_item"
+        //id generator:'assigned', name='user_id'
     }
 
 }

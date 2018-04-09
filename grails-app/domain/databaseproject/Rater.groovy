@@ -6,11 +6,12 @@ class Rater {
     String name
     Date join_date
     String type
-    String reputation
+    Integer reputation
 
     static constraints = {
+
     }
     static mapping = {
-        id generator:'assigned', name:'rater_id'
+        id generator:'increment', name:'rater_id'
     }
 }
